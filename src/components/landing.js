@@ -26,7 +26,7 @@ const Landing = () => (
   <div className="landing">
     <Row>
       <Col sm={6}>
-        <Call size="48px"> Learn, Build, Share </Call>
+        <Call size="48px"> Learn, Make, Innovate </Call>
         <Description size="24px">
           MakeSPP brings together over 100 bright and innovate young minds for
           an all-day hackathon and technology conference. We're a diverse and
