@@ -43,6 +43,20 @@ const Tagline = styled.h1`
   }
 `;
 
+const SubTagline = styled.h1`
+  position: absolute;
+  top: 400px;
+  max-width: 500px;
+  font-size: 2rem;
+  padding-left: 5%;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 36px;
+  }
+`;
+
 const Date = styled.h1`
   position: absolute;
   bottom: 75px;
@@ -84,8 +98,8 @@ const Header = ({ siteTitle }) => (
     <div class="video">
       <Iframe
         url="https://www.youtube.com/embed/xVsXm120dmQ"
-        width="560"
-        height="315"
+        width="600"
+        height="338"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         display="initial"
         position="relative"
@@ -108,6 +122,8 @@ const Header = ({ siteTitle }) => (
       <Logo src="/logo.png" />
     </LogoContainer>
     <Tagline> New Jersey's Premier High School Hackathon </Tagline>
+    <SubTagline> Learn to build & pitch a product with workshops, free food, and prizes. </SubTagline>
+
     <Date className="font">April 6th, 2019 </Date>
     <Register> Applications open 02/09/19 </Register>
     <Particles
