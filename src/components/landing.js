@@ -193,7 +193,7 @@ const Landing = () => (
       />
     </Description>
     <Description color="#333" className="center" size="16px">
-      © 2019 <a href="spprep.org"> Saint Peter's Prep High School</a>
+      © 2019 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>
   </div>
 );
