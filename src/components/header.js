@@ -41,6 +41,9 @@ const Tagline = styled.h1`
     font-size: 48px;
     top: 80px;
   }
+  @media only screen and (max-width: 600px) {
+    font-size: 36px;
+  }
 `;
 
 const SubTagline = styled.h1`
@@ -54,7 +57,11 @@ const SubTagline = styled.h1`
 
   @media only screen and (max-width: 1024px) {
     font-size: 24px;
-    top: 360px;
+    top: 350px;
+  }
+  @media only screen and (max-width: 600px) {
+    top: 250px;
+    font-size: 24px;
   }
 `;
 
