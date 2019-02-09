@@ -6,7 +6,7 @@ import Iframe from "react-iframe";
 
 const Background = styled.header`
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
   margin: 0;
   color: #fff;
   padding: 0;
@@ -30,7 +30,7 @@ const Logo = styled.img`
 `;
 const Tagline = styled.h1`
   position: absolute;
-  top: 110px;
+  top: 125px;
   max-width: 500px;
   font-size: 3.5rem;
   padding-left: 5%;
@@ -45,9 +45,9 @@ const Tagline = styled.h1`
 
 const SubTagline = styled.h1`
   position: absolute;
-  top: 375px;
+  top: 400px;
   max-width: 500px;
-  font-size: 24px;
+  font-size: 2rem;
   padding-left: 5%;
   color: #fff;
   font-family: "Lato", sans-serif;
@@ -106,17 +106,6 @@ const Title = styled.h1`
 // temp solution for video --  future use youtube component autoplay
 const Header = ({ siteTitle }) => (
   <Background>
-    <div class="video">
-      <Iframe
-        url="https://www.youtube.com/embed/xVsXm120dmQ"
-        width="600"
-        height="338"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        display="initial"
-        position="relative"
-        allowFullScreen
-      />
-    </div>
     <Link
       to="/"
       style={{
@@ -132,18 +121,9 @@ const Header = ({ siteTitle }) => (
     <LogoContainer>
       <Logo src="/logo.png" />
     </LogoContainer>
-    <Tagline> New Jersey's Premier High School Hackathon </Tagline>
-    <SubTagline>
-      {" "}
-      Learn to build & pitch a product with workshops, free food, and prizes.{" "}
-    </SubTagline>
 
-    <Date className="font">April 6th, 2019 </Date>
-    <Link to="/register">
-      <Register> Apply Now! </Register>
-    </Link>
     <Particles
-      height="100vh"
+      height="20vh"
       params={{
         particles: {
           number: {
