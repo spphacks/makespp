@@ -39,7 +39,7 @@ const Tagline = styled.h1`
 
   @media only screen and (max-width: 1024px) {
     font-size: 48px;
-    top: 100px;
+    top: 80px;
   }
 `;
 
@@ -53,7 +53,8 @@ const SubTagline = styled.h1`
   font-family: "Lato", sans-serif;
 
   @media only screen and (max-width: 1024px) {
-    font-size: 36px;
+    font-size: 24px;
+    top: 360px;
   }
 `;
 
@@ -122,7 +123,10 @@ const Header = ({ siteTitle }) => (
       <Logo src="/logo.png" />
     </LogoContainer>
     <Tagline> New Jersey's Premier High School Hackathon </Tagline>
-    <SubTagline> Learn to build & pitch a product with workshops, free food, and prizes. </SubTagline>
+    <SubTagline>
+      {" "}
+      Learn to build & pitch a product with workshops, free food, and prizes.{" "}
+    </SubTagline>
 
     <Date className="font">April 6th, 2019 </Date>
     <Register> Applications open 02/09/19 </Register>

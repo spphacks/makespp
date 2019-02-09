@@ -185,7 +185,7 @@ const Landing = () => (
       <Iframe
         url="https://www.google.com/maps/embed/v1/place?key=AIzaSyCa49laFsNCNi0KJWPHSTtkkAl-WHuh2LE
       &q=Saint+Peter's+Prep"
-        width="75%"
+        width="90%"
         height="300px"
         display="initial"
         position="relative"
