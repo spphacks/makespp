@@ -16,8 +16,8 @@ const Call = styled.h2`
 
 const Description = styled.p`
   font-size: ${props => props.size};
-
   font-family: "Lato", sans-serif;
+  font-weight: 300;
   line-spacing: 1.6;
   color: ${props => props.color};
 `;
@@ -182,7 +182,7 @@ const Landing = () => (
     <Description color="#333" className="center" size="28px">
       <b>April 6th, 2019</b>
       <br />
-      8AM - 8PM
+      <b>8AM - 8PM</b>
       <br />
       <br />
       Saint Peter's Preparatory High School <br />144 Grand St, Jersey City, NJ
