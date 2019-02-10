@@ -66,7 +66,12 @@ const Landing = () => (
           MakeSPP brings together over 100 innovative young minds for an all-day
           hackathon and technology conference. We're a diverse and creative
           community of students dedicated to solving some of the most
-          challenging problems with technology.
+          challenging problems with technology.{" "}
+          <b>
+            <u>
+              <Link to="/register">Join Us.</Link>
+            </u>{" "}
+          </b>
         </Description>
       </Col>
       <Col sm={6}>

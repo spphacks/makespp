@@ -301,7 +301,6 @@ class Register extends Component {
             </Col>
             <Col sm={4}>
               <SubLabel>T-Shirt size</SubLabel>
-              <br />
               <Select
                 name="shirt"
                 value={this.state.shirt}
