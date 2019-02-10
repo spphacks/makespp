@@ -67,7 +67,7 @@ const SubTagline = styled.h1`
 
 const Date = styled.h1`
   position: absolute;
-  bottom: 110px;
+  bottom: 30px;
   font-family: "Lato", sans-serif;
   border-bottom: 5px solid #ca043f;
   margin-left: 5%;
@@ -75,7 +75,7 @@ const Date = styled.h1`
 
 const Register = styled.h3`
   position: absolute;
-  bottom: 30px;
+  bottom: 110px;
   font-family: "Lato", sans-serif;
   margin-left: 5%;
   padding: 10px;
