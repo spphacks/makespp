@@ -40,9 +40,11 @@ const Tagline = styled.h1`
   @media only screen and (max-width: 1024px) {
     font-size: 48px;
     top: 80px;
+    padding-left: 3%;
   }
   @media only screen and (max-width: 600px) {
     font-size: 36px;
+    padding-left: 3%;
   }
 `;
 
@@ -58,16 +60,18 @@ const SubTagline = styled.h1`
   @media only screen and (max-width: 1024px) {
     font-size: 24px;
     top: 350px;
+    padding-left: 3%;
   }
   @media only screen and (max-width: 600px) {
     top: 250px;
     font-size: 24px;
+    padding-left: 3%;
   }
 `;
 
 const Date = styled.h1`
   position: absolute;
-  bottom: 30px;
+  bottom: 20px;
   font-family: "Lato", sans-serif;
   border-bottom: 5px solid #ca043f;
   margin-left: 5%;
@@ -75,7 +79,7 @@ const Date = styled.h1`
 
 const Register = styled.h3`
   position: absolute;
-  bottom: 110px;
+  bottom: 90px;
   font-family: "Lato", sans-serif;
   margin-left: 5%;
   padding: 10px;

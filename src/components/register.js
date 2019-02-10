@@ -42,7 +42,7 @@ const Select = styled.select`
   }
 `;
 
-const Submit = styled.input`
+const Submit = styled.button`
   font-size: 24px;
   padding: 10px;
   border: 3px solid #ca043f;
@@ -339,7 +339,7 @@ class Register extends Component {
             </Col>
           </Row>
           <br />
-          <Submit type="submit" value="Apply" />
+          <Submit type="submit">Apply </Submit>
         </form>
       </Container>
     );
