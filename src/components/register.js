@@ -29,6 +29,9 @@ const Select = styled.select`
   font-size: 18px;
   padding: 10px;
   border: 2px solid #e4e4e4;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-radius: 5px;
   width: 100%;
   margin: 10px;
@@ -43,7 +46,7 @@ const Submit = styled.input`
   font-size: 24px;
   padding: 10px;
   border: 3px solid #ca043f;
-
+  background: #fff;
   width: 30%;
   margin: 20px;
   border-radius: 5px;
