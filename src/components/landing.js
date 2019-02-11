@@ -51,7 +51,7 @@ const Img = styled.img`
 `;
 
 const Pitch = styled.div`
-  max-width: 60em;
+  max-width: 70em;
   margin: 0 auto;
 `;
 const Landing = () => (
