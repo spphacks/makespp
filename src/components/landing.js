@@ -11,13 +11,12 @@ const Call = styled.h2`
   padding: 0;
   font-size: ${props => props.size};
   color: ${props => props.color};
-  font-family: "Playfair Display", serif;
 `;
 
 const Description = styled.p`
   font-size: ${props => props.size};
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #333;
   line-spacing: 1.6;
   color: ${props => props.color};
 `;

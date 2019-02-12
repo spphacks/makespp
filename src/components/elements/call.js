@@ -6,7 +6,6 @@ const Call = styled.h2`
   padding: 0;
   font-size: ${props => props.size};
   color: ${props => props.color};
-  font-family: "Playfair Display", serif;
 `;
 
 export default Call;
