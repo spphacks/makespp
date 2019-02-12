@@ -17,6 +17,7 @@ const Description = styled.p`
   font-size: ${props => props.size};
   font-weight: 400;
   color: #333;
+  padding: 0;
   line-spacing: 1.6;
   color: ${props => props.color};
 `;
@@ -49,7 +50,17 @@ const Img = styled.img`
   }
 `;
 
-const Pitch = styled.div`
+const Profile = styled.img`
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+`;
+
+const Site = styled.div`
   max-width: 70em;
   margin: 0 auto;
 `;
@@ -57,7 +68,7 @@ const Landing = () => (
   <div className="landing">
     <Row>
       <Col sm={6}>
-        <Call color="333" size="36px">
+        <Call color="#333" size="36px">
           {" "}
           Learn. Make. Innovate.
         </Call>
@@ -79,8 +90,7 @@ const Landing = () => (
         <br />
       </Col>
     </Row>
-
-    <Pitch>
+    <Site>
       <Row>
         <Col sm={6}>
           <Card bg="#f9e5eb;">
@@ -174,28 +184,68 @@ const Landing = () => (
           </Card>
         </Col>
       </Row>
-    </Pitch>
-    <Call color="fff" className="center" size="48px">
-      Location
-    </Call>
-    <Description color="#333" className="center" size="28px">
-      <b>April 6th, 2019</b>
-      <br />
-      <b>8AM - 8PM</b>
-      <br />
-      <br />
-      Saint Peter's Preparatory High School <br />144 Grand St, Jersey City, NJ
-      07302<br /> <br />
-      <Iframe
-        url="https://www.google.com/maps/embed/v1/place?key=AIzaSyCa49laFsNCNi0KJWPHSTtkkAl-WHuh2LE
+      <Call color="#333" className="center" size="48px">
+        Location
+      </Call>
+      <Description color="#333" className="center" size="28px">
+        <b>April 6th, 2019</b>
+        <br />
+        <b>8AM - 8PM</b>
+        <br />
+        <br />
+        Saint Peter's Preparatory High School <br />144 Grand St, Jersey City,
+        NJ 07302<br /> <br />
+        <Iframe
+          url="https://www.google.com/maps/embed/v1/place?key=AIzaSyCa49laFsNCNi0KJWPHSTtkkAl-WHuh2LE
       &q=Saint+Peter's+Prep"
-        width="90%"
-        height="300px"
-        display="initial"
-        position="relative"
-        allowFullScreen
-      />
-    </Description>
+          width="90%"
+          height="300px"
+          display="initial"
+          position="relative"
+          allowFullScreen
+        />
+      </Description>
+      <Call color="#333" className="center" size="48px">
+        Guests
+      </Call>
+      <br /> <br />
+      <Row>
+        <Col sm={4}>
+          <Profile src="/Joshua.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Joshua Berry</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Database Engineer, Google
+          </Description>
+        </Col>
+        <Col sm={4}>
+          <Profile src="/Brendan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Brendan Bryant</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Product Manager, Conde Nast
+          </Description>
+        </Col>
+        <Col sm={4}>
+          <Profile src="/Phil.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Phillip McGovern</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Investment Banking Associate, <br />Goldman Sachs
+          </Description>
+          <br />
+        </Col>
+      </Row>
+    </Site>
     <Description color="#333" className="center" size="16px">
       © 2019 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>
