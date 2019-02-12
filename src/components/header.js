@@ -81,7 +81,7 @@ const Register = styled.h3`
   padding: 10px;
   border: 5px solid #fff;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 36px;
   text-decoration: none;
   color: #fff;
   transition: all 300ms ease;
