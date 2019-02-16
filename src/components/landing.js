@@ -210,7 +210,7 @@ const Landing = () => (
       </Call>
       <br /> <br />
       <Row>
-        <Col sm={4}>
+        <Col sm={3}>
           <Profile src="/Joshua.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -221,7 +221,7 @@ const Landing = () => (
             Database Engineer, Google
           </Description>
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <Profile src="/Brendan.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -232,7 +232,19 @@ const Landing = () => (
             Product Manager, Conde Nast
           </Description>
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
+          <Profile src="/Cat.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Cat Noone</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            CEO, Iris Health
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
           <Profile src="/Phil.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}

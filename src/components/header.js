@@ -81,12 +81,15 @@ const Register = styled.h3`
   padding: 10px;
   border: 5px solid #fff;
   border-radius: 10px;
-  font-size: 36px;
+  font-size: 28px;
   text-decoration: none;
   color: #fff;
   transition: all 300ms ease;
   &:hover {
     background: #ca043f;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 24px;
   }
 `;
 
