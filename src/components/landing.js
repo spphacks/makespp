@@ -283,7 +283,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            MakeSPP is the best place to start. We'll provide beginner-friendly
+            MakeSPP is the best place to start. We'll have beginner-friendly
             workshops and amazing mentors to help you build something amazing
             over the day.
           </Description>
@@ -296,8 +296,8 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            MakeSPP is completely free thanks to our sponsors. We'll be
-            providing food, snacks, drinks, prizes, and awesome swag.
+            MakeSPP is completely free thanks to our sponsors. There will be
+            food, snacks, drinks, and thousands of dollars worth of prizes.
           </Description>
         </Col>
 
@@ -307,7 +307,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Don't worry! We'll have team formation & and brainstorming sessions
+            Don't worry! There will be team formation & brainstorming sessions
             at the beginning of the event.
           </Description>
         </Col>
