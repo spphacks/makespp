@@ -18,7 +18,7 @@ const Description = styled.p`
   font-weight: 400;
   color: #333;
   padding: 0;
-  line-spacing: 1.6;
+  line-height: 1.5;
   color: ${props => props.color};
 `;
 
@@ -72,7 +72,7 @@ const Landing = () => (
           {" "}
           Learn. Make. Innovate.
         </Call>
-        <Description color="#333" size="30px">
+        <Description color="#333" size="28px">
           MakeSPP brings together over 100 innovative young minds for an all-day
           hackathon and technology conference. We're a diverse and creative
           community of students dedicated to solving some of the most
@@ -101,15 +101,11 @@ const Landing = () => (
             </Call>
             <Description color="#333" size="18px">
               {" "}
-              Interested in computer science? Learn to code websites and
-              applications through fun project-based workshops.{" "}
-              <b>No experience necessary!</b>
-              <br />
-              <br />
-              Love design? Work with your team to create a seamless user
-              experience for your project. <br />
-              <br /> Passion for business? Attend our entrepreneurship session,
-              talks, & panel.
+              Learn to code websites and applications with fun project-based
+              workshops & skilled mentors. <b>No experience necessary!</b>
+              <br /> <br />
+              You'll also have the opportunity to attend our entrepreneurship
+              session, talks, & panel.
             </Description>
           </Card>
         </Col>
@@ -130,10 +126,8 @@ const Landing = () => (
             </Call>
             <Description color="#333" size="18px">
               {" "}
-              Regardless if you're a code monkey, entepreneur, designer, or
-              engineer, we all have one thing in common: <b>
-                we make things
-              </b>. <br />
+              Regardless if you're a entepreneur, designer, or engineer, we all
+              have one thing in common: <b>we make things</b>. <br />
               <br /> Let's use our creativity to make a difference.
             </Description>
           </Card>
@@ -255,6 +249,79 @@ const Landing = () => (
             Investment Banking Associate, <br />Goldman Sachs
           </Description>
           <br />
+        </Col>
+      </Row>
+      <Call color="#333" className="center" size="48px">
+        FAQ
+      </Call>
+      <br /> <br />
+      <Row>
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            What is a hackathon?
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            A hackathon is where you have the opportunity turn your ideas into
+            real projects. We'll provide skilled mentors, speakers, workshops,
+            food, friends, & so much more.
+          </Description>
+        </Col>
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            Who can attend?{" "}
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Any high school student in NJ or the Greater New York City area is
+            free to partipate.
+          </Description>
+        </Col>
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            What if I don't know how to code?
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            MakeSPP is the best place to start. We'll provide beginner-friendly
+            workshops and amazing mentors to help you build something amazing
+            over the day.
+          </Description>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            What does it cost?
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            MakeSPP is completely free thanks to our sponsors. We'll be
+            providing food, snacks, drinks, prizes, and awesome swag.
+          </Description>
+        </Col>
+
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            What if I don’t have a team or idea?
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Don't worry! We'll have team formation & and brainstorming sessions
+            at the beginning of the event.
+          </Description>
+        </Col>
+        <Col sm={4}>
+          <Call className="center" color="#333" size="24px">
+            I have another question!
+          </Call>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Email us at <a href="mailto:team@makespp.com">
+              team@makespp.com
+            </a>{" "}
+            <br />
+          </Description>
         </Col>
       </Row>
     </Site>
