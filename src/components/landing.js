@@ -273,8 +273,7 @@ const Landing = () => (
           </Call>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Any high school student in NJ or the Greater New York City area is
-            free to partipate.
+            Any student in grades 7-12 is welcome to apply to attend.
           </Description>
         </Col>
         <Col sm={4}>

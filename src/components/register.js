@@ -169,7 +169,7 @@ class Register extends Component {
               <Input
                 type="text"
                 name="school"
-                placeholder="High School"
+                placeholder="School"
                 value={this.state.school}
                 onChange={event =>
                   this.setState(
@@ -194,7 +194,7 @@ class Register extends Component {
                 <option value="" disabled selected>
                   Class Year
                 </option>
-
+                <option>Middle School</option>
                 <option>Freshman</option>
                 <option>Sophomore</option>
                 <option>Junior </option>
