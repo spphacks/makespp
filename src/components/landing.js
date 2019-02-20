@@ -178,6 +178,7 @@ const Landing = () => (
           </Card>
         </Col>
       </Row>
+      <br />
       <Call color="#333" className="center" size="48px">
         Location
       </Call>
@@ -185,7 +186,6 @@ const Landing = () => (
         <b>April 6th, 2019</b>
         <br />
         <b>8AM - 8PM</b>
-        <br />
         <br />
         Saint Peter's Preparatory High School <br />144 Grand St, Jersey City,
         NJ 07302<br /> <br />
