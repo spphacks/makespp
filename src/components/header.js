@@ -119,8 +119,8 @@ const Header = ({ siteTitle }) => (
     <div class="video">
       <Iframe
         url="https://www.youtube.com/embed/xVsXm120dmQ"
-        width="600"
-        height="338"
+        width="700"
+        height="400"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         display="initial"
         position="relative"

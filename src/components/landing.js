@@ -18,7 +18,7 @@ const Description = styled.p`
   font-weight: 400;
   color: #333;
   padding: 0;
-  line-height: 1.5;
+  line-height: 1.3;
   color: ${props => props.color};
 `;
 
@@ -53,7 +53,8 @@ const Img = styled.img`
 const Profile = styled.img`
   margin-left: auto;
   margin-right: auto;
-  height: 120px;
+  height: 125px;
+  width: 130px;
   display: block;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
   border-radius: 50%;
@@ -61,7 +62,7 @@ const Profile = styled.img`
 `;
 
 const Site = styled.div`
-  max-width: 70em;
+  max-width: 75em;
   margin: 0 auto;
 `;
 const Landing = () => (
@@ -321,6 +322,242 @@ const Landing = () => (
             </a>{" "}
             <br />
           </Description>
+        </Col>
+      </Row>
+      <Call color="#333" className="center" size="48px">
+        Schedule
+      </Call>
+      <Description className="center" color="#333" size="24px">
+        {" "}
+        <b> TBA </b>
+      </Description>
+      <br />
+      <Call color="#333" className="center" size="48px">
+        Sponsors
+      </Call>
+      <Description className="center" color="#333" size="24px">
+        {" "}
+        <b> TBA </b>
+      </Description>
+      <Call color="#333" className="center" size="48px">
+        Leadership
+      </Call>
+      <br /> <br />
+      <Row>
+        <Col sm={2}>
+          <Profile src="/team/samay.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Samay Shamdasani</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Director
+          </Description>
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/nathan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Nathan Blumenfeld</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Finance Lead
+          </Description>
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/max.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Maxim Geller</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations Lead
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/shash.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Shashwat Punjani</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations Lead
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/thomas.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Thomas Narramore</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Marketing Lead
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/dan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Daniel Ambrosio</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience Lead
+          </Description>
+          <br />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={2}>
+          <Profile src="/team/owen.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Owen Kealey</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience
+          </Description>
+        </Col>{" "}
+        <Col sm={2}>
+          <Profile src="/team/jonas.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Jonas Eaton</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/victor.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Victor Tyne</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Finance
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/ethan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Ethan MacMillan</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/tyler.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Tyler Greene</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience
+          </Description>
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/suvan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Suvan Bhat</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Marketing
+          </Description>
+          <br />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={2}>
+          <Profile src="/team/tomek.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Tomek Botwicz</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Finance
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/eli.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Eli Blumenfeld</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Event Experience
+          </Description>
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/liam.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Liam Concannon</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/sam.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Samuel Leonte</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Operations
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/shivansh.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Shivansh Kumar</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Marketing
+          </Description>
+          <br />
+        </Col>
+        <Col sm={2}>
+          <Profile src="/team/holtm.png" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Michael Holt</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Administrator
+          </Description>
+          <br />
         </Col>
       </Row>
     </Site>
