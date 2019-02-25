@@ -213,7 +213,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Database Engineer, Google
+            Database Engineer, Google (SPP '10)
           </Description>
         </Col>
         <Col sm={3}>
@@ -224,7 +224,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Product Manager, Conde Nast
+            Product Manager, Conde Nast (SPP '08)
           </Description>
         </Col>
         <Col sm={3}>
@@ -240,6 +240,18 @@ const Landing = () => (
           <br />
         </Col>
         <Col sm={3}>
+          <Profile src="/gyan.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Gyan Mishra</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Executive Director, Morgan Stanley
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
           <Profile src="/Phil.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -247,7 +259,31 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Investment Banking Associate, <br />Goldman Sachs
+            Investment Banking Associate, <br />Goldman Sachs (SPP '11)
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
+          <Profile src="/huy.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Huy Ha</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Software Engineer, Columbia '21
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
+          <Profile src="/frank.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Frank Beatrice</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Software Engineer (SPP '14)
           </Description>
           <br />
         </Col>
@@ -327,10 +363,97 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Schedule
       </Call>
-      <Description className="center" color="#333" size="24px">
-        {" "}
-        <b> TBA </b>
-      </Description>
+      <Row>
+        <Col sm={2} />
+        <Col sm={8}>
+          <div className="schedule">
+            <item>
+              <span className="right">8 AM</span> Breakfast & Check-In
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">8:15 AM</span> Team Building Sessions
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">8:30 AM</span> Opening Ceremony
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">9 AM</span> Making Starts
+            </item>
+
+            <item>
+              <span className="right">9 AM</span> <b>Workshop</b>: Creative
+              Coding with Upperline Code (Beginner){" "}
+            </item>
+
+            <item>
+              <span className="right">10 AM</span> <b>Workshop</b>: Build Your
+              First Website (Beginner)
+            </item>
+            <item>
+              <span className="right">10 AM</span> <b>Workshop</b>: Intro to
+              Python (Beginner){" "}
+            </item>
+
+            <item>
+              <span className="right">11 AM</span> <b>Workshop</b>: Intro to
+              Machine Learning (Intermediate){" "}
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">12 PM</span> Lunch
+            </item>
+
+            <item>
+              <span className="right">12:30 PM</span>{" "}
+              <b>Entreprenurship Panel</b>{" "}
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">12:30 PM</span> Engineering Activity
+            </item>
+
+            <item>
+              <span className="right">1 PM</span> <b>Workshop</b>: Pitching Your
+              Project{" "}
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">5:30 PM</span> Making Ends & Expo Begins
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">6:30 PM</span> Judging Ends
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">6:45 PM</span> Expo Ends & Closing Speaker
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">7 PM</span> Top 5 Teams Demo & Q/A
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">7:45 PM</span> Winners Announced & Closing
+              Remarks{" "}
+            </item>
+          </div>
+        </Col>
+        <Col sm={2} />
+      </Row>
       <br />
       <Call color="#333" className="center" size="48px">
         Sponsors

@@ -35,7 +35,6 @@ const Tagline = styled.h1`
   font-size: 3.5rem;
   padding-left: 5%;
   color: #fff;
-  font-family: "Lato", sans-serif;
 
   @media only screen and (max-width: 1024px) {
     font-size: 48px;
@@ -50,7 +49,6 @@ const SubTagline = styled.h1`
   font-size: 2rem;
   padding-left: 5%;
   color: #fff;
-  font-family: "Lato", sans-serif;
 
   @media only screen and (max-width: 1024px) {
     font-size: 24px;
@@ -61,7 +59,6 @@ const SubTagline = styled.h1`
 const Date = styled.h1`
   position: absolute;
   bottom: 110px;
-  font-family: "Lato", sans-serif;
   border-bottom: 5px solid #ca043f;
   margin-left: 5%;
 `;
@@ -69,7 +66,6 @@ const Date = styled.h1`
 const Register = styled.h3`
   position: absolute;
   bottom: 30px;
-  font-family: "Lato", sans-serif;
   margin-left: 5%;
   padding: 10px;
   border: 5px solid #fff;
@@ -84,7 +80,6 @@ const Register = styled.h3`
 `;
 
 const Title = styled.h1`
-  font-family: "Lato", sans-serif;
   font-size: 64px;
   position: absolute;
   left: 50%;

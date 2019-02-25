@@ -103,6 +103,7 @@ class Register extends Component {
       why: "",
       team: "",
       dietary: "",
+      entrepreneurship: "",
       shirt: "",
       online: "",
       time: ""
@@ -289,6 +290,34 @@ class Register extends Component {
           </Row>
           <br />
           <Row>
+            <Col sm={4} />
+
+            <Col sm={4}>
+              <SubLabel>
+                Are you interested in attending the entrepreneurship panel
+                (advice from CEOs/founders)?{" "}
+              </SubLabel>
+              <Select
+                name="entrepreneurship"
+                value={this.state.entrepreneurship}
+                onChange={event =>
+                  this.setState(
+                    updateByPropertyName("entrepreneurship", event.target.value)
+                  )
+                }
+              >
+                <option value="" disabled selected>
+                  Interest
+                </option>
+
+                <option>Yes</option>
+                <option>No</option>
+                <option>Maybe</option>
+              </Select>
+            </Col>
+            <Col sm={4} />
+          </Row>
+          <Row>
             <Col sm={4}>
               <SubLabel>Any dietary restrictions?</SubLabel>
               <Input
@@ -315,7 +344,7 @@ class Register extends Component {
                 }
               >
                 <option value="" disabled selected>
-                  Size
+                  Size (Adult)
                 </option>
 
                 <option>S</option>
@@ -324,6 +353,7 @@ class Register extends Component {
                 <option>XL</option>
               </Select>
             </Col>
+
             <Col sm={4}>
               <SubLabel>Anything to share?</SubLabel>
               <Input
