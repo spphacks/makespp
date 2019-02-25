@@ -373,12 +373,12 @@ const Landing = () => (
 
             <item>
               {" "}
-              <span className="right">8:15 AM</span> Team Building Sessions
+              <span className="right">8:10 AM</span> Team Building Sessions
             </item>
 
             <item>
               {" "}
-              <span className="right">8:30 AM</span> Opening Ceremony
+              <span className="right">8:20 AM</span> Opening Ceremony
             </item>
 
             <item>
@@ -447,8 +447,8 @@ const Landing = () => (
 
             <item>
               {" "}
-              <span className="right">7:45 PM</span> Winners Announced & Closing
-              Remarks{" "}
+              <span className="right">8 PM</span> Winners Announced & Closing
+              Remarks Remarks{" "}
             </item>
           </div>
         </Col>
