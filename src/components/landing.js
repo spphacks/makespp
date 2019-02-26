@@ -320,7 +320,7 @@ const Landing = () => (
           <Description className="center" color="#333" size="16px">
             {" "}
             MakeSPP is the best place to start. We'll have beginner-friendly
-            workshops and amazing mentors to help you build something amazing
+            workshops and skilled mentors to help you build something amazing
             over the day.
           </Description>
         </Col>
@@ -412,7 +412,7 @@ const Landing = () => (
 
             <item>
               <span className="right">12:30 PM</span>{" "}
-              <b>Entreprenurship Panel</b>{" "}
+              <b>Entrepreneurship Panel</b>{" "}
             </item>
 
             <item>
@@ -448,7 +448,7 @@ const Landing = () => (
             <item>
               {" "}
               <span className="right">8 PM</span> Winners Announced & Closing
-              Remarks Remarks{" "}
+              Remarks{" "}
             </item>
           </div>
         </Col>
