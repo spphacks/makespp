@@ -307,7 +307,7 @@ class Register extends Component {
                 }
               >
                 <option value="" disabled selected>
-                  Interest
+                  Select option
                 </option>
 
                 <option>Yes</option>
@@ -344,7 +344,7 @@ class Register extends Component {
                 }
               >
                 <option value="" disabled selected>
-                  Size (Adult)
+                  Select Size (Adult)
                 </option>
 
                 <option>S</option>
