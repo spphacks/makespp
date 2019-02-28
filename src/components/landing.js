@@ -368,17 +368,17 @@ const Landing = () => (
         <Col sm={8}>
           <div className="schedule">
             <item>
-              <span className="right">8 AM</span> Breakfast & Check-In
+              <span className="right">7:45 - 8:15 AM</span> Breakfast & Check-In
             </item>
 
             <item>
               {" "}
-              <span className="right">8:10 AM</span> Team Building Sessions
+              <span className="right">8:15 AM</span> Team Building Sessions
             </item>
 
             <item>
               {" "}
-              <span className="right">8:20 AM</span> Opening Ceremony
+              <span className="right">8:30 AM</span> Opening Ceremony
             </item>
 
             <item>
@@ -421,8 +421,8 @@ const Landing = () => (
             </item>
 
             <item>
-              <span className="right">1 PM</span> <b>Workshop</b>: Pitching Your
-              Project{" "}
+              <span className="right">2:30 PM</span> <b>Workshop</b>: Pitching
+              Your Project{" "}
             </item>
 
             <item>
