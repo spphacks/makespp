@@ -526,36 +526,48 @@ const Landing = () => (
       </Row>
       <Row>
         <Col sm={4}>
-          <Sponsor src="/sponsors/upperline.png" />
+          <Sponsor src="/sponsors/njit.png" />
         </Col>
         <Col sm={4}>
           <Sponsor src="/sponsors/balsamiq.png" />
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/linode.png" />
+          <Sponsor src="/sponsors/upperline.png" />
         </Col>
       </Row>
       <Row>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/linode.png" />
+        </Col>
         <Col sm={4}>
           <Sponsor src="/sponsors/uworld.png" />
         </Col>
         <Col sm={4}>
           <Sponsor src="/sponsors/jbg.png" />
         </Col>
+      </Row>
+      <Row>
+        <Col sm={2} />
         <Col sm={4}>
           <Sponsor src="/sponsors/miles.png" />
         </Col>
+        <Col sm={4}>
+          <br /> <br />
+          <Sponsor src="/sponsors/hackerearth.png" />
+        </Col>
+        <Col sm={2} />
       </Row>
       <Row>
+        <Col sm={2} />
+
         <Col sm={4}>
           <Sponsor className="max" src="/sponsors/insomnia.jpg" />
         </Col>
-        <Col sm={4}>
-          <Sponsor src="/sponsors/hackerearth.png" />
-        </Col>
+
         <Col sm={4}>
           <Sponsor className="max" src="/sponsors/stickergiant.png" />
         </Col>
+        <Col sm={2} />
       </Row>
       <Row>
         <Col sm={3}>
