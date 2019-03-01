@@ -21,6 +21,8 @@ body {
 .video {
   position: absolute;
   top: 200px;
+  width: 600px;
+  height: 350px;
   right: 5%;
 }
 
