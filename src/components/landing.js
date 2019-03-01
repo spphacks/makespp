@@ -513,6 +513,7 @@ const Landing = () => (
         <Col sm={2} />
       </Row>
       <br />
+      <br />
       <Call color="#333" className="center" size="48px">
         Sponsors
       </Call>
