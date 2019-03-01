@@ -28,6 +28,10 @@ body {
   color: #ca043f;
 }
 
+.max {
+  max-height: 100px;
+}
+
 .dots {
   font-size: 24px;
   padding: 0;

@@ -35,6 +35,12 @@ const Card = styled.div`
   }
 `;
 
+const Role = styled.p`
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+`;
+
 const Img = styled.img`
   margin-left: auto;
   margin-right: auto;
@@ -48,6 +54,13 @@ const Img = styled.img`
     height: 200px;
     max-width: 100%;
   }
+`;
+
+const Sponsor = styled.img`
+  display: block;
+  margin: auto;
+  max-width: 70%;
+  padding: 20px;
 `;
 
 const Profile = styled.img`
@@ -206,6 +219,17 @@ const Landing = () => (
       <br /> <br />
       <Row>
         <Col sm={3}>
+          <Profile src="/Santiago.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Santiago Siri</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Founder, Democracy Earth Foundation
+          </Description>
+        </Col>
+        <Col sm={3}>
           <Profile src="/Joshua.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -237,6 +261,7 @@ const Landing = () => (
             {" "}
             CEO, Iris Health
           </Description>
+
           <br />
         </Col>
         <Col sm={3}>
@@ -249,6 +274,20 @@ const Landing = () => (
             {" "}
             Executive Director, Morgan Stanley
           </Description>
+
+          <br />
+        </Col>
+        <Col sm={3}>
+          <Profile src="/rachel.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Rachel Aliana </b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            CEO, <br />Adjacent Platform
+          </Description>
+
           <br />
         </Col>
         <Col sm={3}>
@@ -261,8 +300,26 @@ const Landing = () => (
             {" "}
             Investment Banking Associate, <br />Goldman Sachs (SPP '11)
           </Description>
+
           <br />
         </Col>
+
+        <Col sm={3}>
+          <Profile src="/Abhisek.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Abhisek Vyas</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Student, <br />Rutgers Business School
+          </Description>
+
+          <br />
+        </Col>
+
+        <Col sm={3} />
+
         <Col sm={3}>
           <Profile src="/huy.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -287,6 +344,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
+        <Col sm={3} />
       </Row>
       <Call color="#333" className="center" size="48px">
         FAQ
@@ -458,10 +516,60 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Sponsors
       </Call>
-      <Description className="center" color="#333" size="24px">
-        {" "}
-        <b> TBA </b>
-      </Description>
+      <Row>
+        <Col sm={4} />
+        <Col sm={4}>
+          <Sponsor src="/sponsors/jdj.png" />
+        </Col>
+        <Col sm={4} />
+      </Row>
+      <Row>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/upperline.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/balsamiq.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/linode.png" />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/uworld.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/jbg.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/miles.png" />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={4}>
+          <Sponsor className="max" src="/sponsors/insomnia.jpg" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/hackerearth.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor className="max" src="/sponsors/stickergiant.png" />
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/desmos.png" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/sketch.png" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/1password.png" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/hackclub.png" />
+        </Col>
+      </Row>
       <Call color="#333" className="center" size="48px">
         Leadership
       </Call>
