@@ -574,7 +574,7 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Leadership
       </Call>
-      <br /> <br />
+      <br /> <br /> <br />
       <Row>
         <Col sm={2}>
           <Profile src="/team/samay.jpg" />
