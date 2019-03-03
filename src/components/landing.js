@@ -26,7 +26,7 @@ const Card = styled.div`
   background: ${props => props.bg};
   padding: 10px;
   margin-bottom: 20px;
-  height: 285px;
+  height: 230px;
   box-shadow: rgba(0, 0, 0, 0.125) 0px 8px 16px;
   border-radius: 10px;
 
@@ -124,12 +124,12 @@ const Landing = () => (
           </Card>
         </Col>
         <Col sm={6}>
-          <Img height="300px" src="/8.jpg" />
+          <Img height="250px" src="/8.jpg" />
         </Col>
       </Row>
       <Row>
         <Col sm={6}>
-          <Img height="300px" src="/5.jpg" />
+          <Img height="250px" src="/5.jpg" />
         </Col>
         <Col sm={6}>
           <Card bg="#deeaf7;">
@@ -157,22 +157,20 @@ const Landing = () => (
             </Call>
             <Description color="#333" size="18px">
               You'll have the opportunity to win prizes worth thousands of
-              dollars — AirPods, tablets, drones, Raspberry Pis, speakers,
-              software subscriptions, and much more! <br />
-              <br />
-              In addition to grand prizes, we also have four tracks which you
-              may choose to enter your project in:{" "}
+              dollars — AirPods, tablets, drones, Raspberry Pis, software
+              subscriptions, and much more! In addition to grand prizes, we also
+              have four tracks which you may choose to enter your project in:{" "}
               <b>social justice, education, healthcare, and environment.</b>
             </Description>
           </Card>
         </Col>
         <Col sm={6}>
-          <Img height="300px" src="/1.jpg" />
+          <Img height="250px" src="/1.jpg" />
         </Col>
       </Row>
       <Row>
         <Col sm={6}>
-          <Img height="300px" src="/6.jpg" />
+          <Img height="250px" src="/6.jpg" />
         </Col>
         <Col sm={6}>
           <Card bg="#deeaf7;">
@@ -184,7 +182,7 @@ const Landing = () => (
             <Description color="#333" size="18px">
               {" "}
               With delicious food and awesome swag from the hottest tech
-              companies, you'll have a great time.
+              companies, you'll have a <b>great time</b>.
               <br /> <br />
               Whether you're working on a marketing pitch or coding up a new AI
               algorithm, MakeSPP is a place for everyone to thrive.{" "}
@@ -481,6 +479,11 @@ const Landing = () => (
             <item>
               <span className="right">2:30 PM</span> <b>Workshop</b>: Pitching
               Your Project{" "}
+            </item>
+
+            <item>
+              {" "}
+              <span className="right">4:00 PM</span> Snack
             </item>
 
             <item>
