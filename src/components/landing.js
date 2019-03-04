@@ -822,16 +822,10 @@ const Landing = () => (
     </Site>
     <div class="center">
       <a href="https://twitter.com/sppmakes">
-        <img
-          height="50px"
-          src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png"
-        />
+        <img height="50px" src="/twitter.png" />
       </a>
       <a href="https://instagram.com/sppmakes">
-        <img
-          height="50px"
-          src="http://www.transparentpng.com/thumb/logo-instagram/JFyofc-logo-instagram-background-png.png"
-        />
+        <img height="50px" src="/instagram.png" />
       </a>
     </div>
     <Description color="#333" className="center" size="16px">
