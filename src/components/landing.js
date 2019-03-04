@@ -78,6 +78,18 @@ const Site = styled.div`
   max-width: 75em;
   margin: 0 auto;
 `;
+
+const Twitter = styled.a`
+  font-size: 24px;
+  padding: 10px;
+  background: #38a1f3;
+  border-radius: 10px;
+  color: #fff;
+`;
+
+const Instagram = styled.a`
+  font-size: 24px;
+`;
 const Landing = () => (
   <div className="landing">
     <Row>
@@ -808,6 +820,20 @@ const Landing = () => (
         </Col>
       </Row>
     </Site>
+    <div class="center">
+      <a href="https://twitter.com/sppmakes">
+        <img
+          height="50px"
+          src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png"
+        />
+      </a>
+      <a href="https://instagram.com/sppmakes">
+        <img
+          height="50px"
+          src="http://www.transparentpng.com/thumb/logo-instagram/JFyofc-logo-instagram-background-png.png"
+        />
+      </a>
+    </div>
     <Description color="#333" className="center" size="16px">
       © 2019 <a href="https://spprep.org"> Saint Peter's Prep High School</a>
     </Description>
@@ -815,14 +841,6 @@ const Landing = () => (
 );
 
 // Last year-- Must do (state dept. t shirts, video in square)
-// Location + Time
-// Tracks + Prizes
-// FAQ -- must do
-// Guests
-// Team
-// Sponsors
-// Footer -- Must do
-
-// Notes -- 3-4 workshops max, 1 entreprenurship panel, 1 opening talk, sponsor opening talks, juding final talk
+// Footer + CoC -- Must do
 
 export default Landing;
