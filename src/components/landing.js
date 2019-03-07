@@ -243,7 +243,7 @@ const Landing = () => (
           <Profile src="/Joshua.jpg" />
           <Description className="center" color="#333" size="18px">
             {" "}
-            <b> Joshua Berry</b>
+            <b> Joshua Barry</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
