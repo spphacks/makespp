@@ -508,10 +508,14 @@ const Landing = () => (
               {" "}
               <span className="right">6:30 PM</span> Judging Ends
             </item>
+            <item>
+              {" "}
+              <span className="right">6:30 PM</span> Dinner
+            </item>
 
             <item>
               {" "}
-              <span className="right">6:45 PM</span> Expo Ends & Closing Speaker
+              <span className="right">6:50 PM</span> Expo Ends
             </item>
 
             <item>

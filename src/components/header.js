@@ -69,14 +69,14 @@ const SubTagline = styled.h1`
 
 const Date = styled.h1`
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   border-bottom: 5px solid #ca043f;
   margin-left: 5%;
 `;
 
 const Register = styled.h3`
   position: absolute;
-  bottom: 90px;
+  bottom: 60px;
   margin-left: 5%;
   padding: 10px;
   border: 5px solid #fff;
