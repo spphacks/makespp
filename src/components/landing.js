@@ -321,7 +321,7 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Founder, <br />Young Leaders
+            Founder, <br />YoungLeaders
           </Description>
 
           <br />
