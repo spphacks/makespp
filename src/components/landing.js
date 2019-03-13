@@ -313,7 +313,33 @@ const Landing = () => (
 
           <br />
         </Col>
+        <Col sm={3}>
+          <Profile src="/JC.png" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> JC Btaiche </b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Founder, <br />Young Leaders
+          </Description>
 
+          <br />
+        </Col>
+
+        <Col sm={3}>
+          <Profile src="/natalia.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Natalia Dorogi</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Venture Partner, <br />Romulus Capital. Columbia Engineering
+          </Description>
+
+          <br />
+        </Col>
         <Col sm={3}>
           <Profile src="/Abhisek.jpg" />
           <Description className="center" color="#333" size="18px">
@@ -327,8 +353,6 @@ const Landing = () => (
 
           <br />
         </Col>
-
-        <Col sm={3} />
 
         <Col sm={3}>
           <Profile src="/huy.jpg" />
@@ -537,12 +561,23 @@ const Landing = () => (
       <Call color="#333" className="center" size="48px">
         Sponsors
       </Call>
+      <br />
       <Row>
         <Col sm={4} />
         <Col sm={4}>
-          <Sponsor src="/sponsors/jdj.png" />
+          <Sponsor src="/sponsors/GS.jpg" />
         </Col>
         <Col sm={4} />
+      </Row>
+      <Row>
+        <Col sm={2} />
+        <Col sm={4}>
+          <Sponsor src="/sponsors/jdj.png" />
+        </Col>
+        <Col sm={4}>
+          <Sponsor src="/sponsors/smp.jpg" />
+        </Col>{" "}
+        <Col sm={2} />
       </Row>
       <Row>
         <Col sm={4}>
@@ -552,42 +587,49 @@ const Landing = () => (
           <Sponsor src="/sponsors/balsamiq.png" />
         </Col>
         <Col sm={4}>
-          <Sponsor src="/sponsors/upperline.png" />
+          <Sponsor src="/sponsors/mongodb.jpg" />
         </Col>
       </Row>
       <Row>
-        <Col sm={4}>
+        <Col sm={3}>
+          <br />
+          <Sponsor src="/sponsors/upperline.png" />
+        </Col>
+        <Col sm={3}>
           <Sponsor src="/sponsors/linode.png" />
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor src="/sponsors/uworld.png" />
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor src="/sponsors/jbg.png" />
         </Col>
       </Row>
       <Row>
         <Col sm={2} />
-        <Col sm={4}>
+
+        <Col sm={3}>
           <Sponsor src="/sponsors/miles.png" />
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <br /> <br />
           <Sponsor src="/sponsors/hackerearth.png" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor className="max" src="/sponsors/yl.png" />
         </Col>
         <Col sm={2} />
       </Row>
       <Row>
-        <Col sm={2} />
-
-        <Col sm={4}>
+        <Col sm={3} />
+        <Col sm={3}>
           <Sponsor className="max" src="/sponsors/insomnia.jpg" />
         </Col>
 
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor className="max" src="/sponsors/stickergiant.png" />
         </Col>
-        <Col sm={2} />
+        <Col sm={3} />
       </Row>
       <Row>
         <Col sm={3}>
