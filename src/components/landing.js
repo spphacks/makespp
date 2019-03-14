@@ -606,8 +606,6 @@ const Landing = () => (
         </Col>
       </Row>
       <Row>
-        <Col sm={2} />
-
         <Col sm={3}>
           <Sponsor src="/sponsors/miles.png" />
         </Col>
@@ -616,9 +614,12 @@ const Landing = () => (
           <Sponsor src="/sponsors/hackerearth.png" />
         </Col>
         <Col sm={3}>
+          <br /> <br />
+          <Sponsor src="/sponsors/jpmorgan.jpg" />
+        </Col>
+        <Col sm={3}>
           <Sponsor className="max" src="/sponsors/yl.png" />
         </Col>
-        <Col sm={2} />
       </Row>
       <Row>
         <Col sm={3} />
