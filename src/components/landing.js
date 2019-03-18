@@ -501,16 +501,18 @@ const Landing = () => (
               {" "}
               <span className="right">12 PM</span> Lunch
             </item>
-
             <item>
               <span className="right">12:30 PM</span>{" "}
-              <b>Entrepreneurship Panel</b>{" "}
+              <b>Build a Web App with MongoDB & Zeit (Intermediate)</b>{" "}
+            </item>
+
+            <item>
+              <span className="right">1 PM</span> <b>Entrepreneurship Panel</b>{" "}
             </item>
 
             <item>
               {" "}
-              <span className="right">12:30 PM</span>{" "}
-              <b>Engineering Activity</b>
+              <span className="right">2 PM</span> <b>Engineering Activity</b>
             </item>
 
             <item>
@@ -580,14 +582,17 @@ const Landing = () => (
         <Col sm={2} />
       </Row>
       <Row>
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor src="/sponsors/njit.png" />
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor src="/sponsors/balsamiq.png" />
         </Col>
-        <Col sm={4}>
+        <Col sm={3}>
           <Sponsor src="/sponsors/mongodb.jpg" />
+        </Col>
+        <Col sm={3}>
+          <Sponsor src="/sponsors/zeit.svg" />
         </Col>
       </Row>
       <Row>
