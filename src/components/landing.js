@@ -860,6 +860,19 @@ const Landing = () => (
           <br />
         </Col>
         <Col sm={2}>
+          <Profile src="/team/ben.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Ben Norris</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Marketing
+          </Description>
+          <br />
+        </Col>
+        <Col sm={5} />
+        <Col sm={2}>
           <Profile src="/team/holtm.png" />
           <Description className="center" color="#333" size="18px">
             {" "}
@@ -871,6 +884,7 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
+        <Col sm={5} />
       </Row>
     </Site>
     <div class="center">
