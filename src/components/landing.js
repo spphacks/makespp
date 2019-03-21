@@ -502,8 +502,8 @@ const Landing = () => (
               <span className="right">12 PM</span> Lunch
             </item>
             <item>
-              <span className="right">12:30 PM</span>{" "}
-              <b>Build a Web App with MongoDB & Zeit</b> (Intermediate){" "}
+              <span className="right">12:30 PM</span> <b>Workshop</b>: Build a
+              Web App with MongoDB & Zeit (Intermediate){" "}
             </item>
 
             <item>
