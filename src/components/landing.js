@@ -378,7 +378,18 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
-        <Col sm={3} />
+        <Col sm={3}>
+          <Profile src="/allen.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Allen Hai</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Software Engineer, ZEIT
+          </Description>
+          <br />
+        </Col>
       </Row>
       <Call color="#333" className="center" size="48px">
         FAQ
@@ -628,14 +639,18 @@ const Landing = () => (
       </Row>
       <Row>
         <Col sm={3} />
-        <Col sm={3}>
+        <Col sm={2}>
           <Sponsor className="max" src="/sponsors/insomnia.jpg" />
         </Col>
 
-        <Col sm={3}>
+        <Col sm={2}>
           <Sponsor className="max" src="/sponsors/stickergiant.png" />
         </Col>
-        <Col sm={3} />
+
+        <Col sm={3}>
+          <Sponsor className="max" src="/sponsors/basiles.png" />
+        </Col>
+        <Col sm={2} />
       </Row>
       <Row>
         <Col sm={3}>
@@ -647,6 +662,7 @@ const Landing = () => (
         <Col sm={3}>
           <Sponsor src="/sponsors/1password.png" />
         </Col>
+
         <Col sm={3}>
           <Sponsor src="/sponsors/hackclub.png" />
         </Col>
