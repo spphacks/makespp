@@ -505,7 +505,7 @@ const Landing = () => (
 
             <item>
               <span className="right">11 AM</span> <b>Workshop</b>: Intro to
-              Machine Learning (Intermediate){" "}
+              Machine Learning with Upperline Code (Intermediate){" "}
             </item>
 
             <item>
@@ -514,7 +514,7 @@ const Landing = () => (
             </item>
             <item>
               <span className="right">12:30 PM</span> <b>Workshop</b>: Build a
-              Web App with MongoDB & Zeit (Intermediate){" "}
+              Web App with Zeit (Intermediate){" "}
             </item>
 
             <item>
