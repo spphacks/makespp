@@ -10,13 +10,13 @@ import SEO from "../components/seo";
 const Register = () => (
   <Layout>
     <Header />
-    <div className="center">
-      <h2>
+    <div className="center coc">
+      <h1>
         {" "}
         <a href="https://hackcodeofconduct.org/676-makespp">
-          MakeSPP Code of Conduct
+          <u>MakeSPP Code of Conduct</u>
         </a>{" "}
-      </h2>
+      </h1>
     </div>
   </Layout>
 );

@@ -80,6 +80,9 @@ body {
   font-weight: bold;
 }
 
+.coc {
+  color: #ca043f;
+}
 textarea:focus,
 input:focus,
 select:focus {
