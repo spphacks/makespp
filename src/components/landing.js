@@ -390,6 +390,30 @@ const Landing = () => (
           </Description>
           <br />
         </Col>
+        <Col sm={3}>
+          <Profile src="/skircak.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Michael Skircak</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Entrepreneur & Teacher, SPP
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
+          <Profile src="/Thenmozhi.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b> Thenmozhi Muthusamy</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Vice President, Goldman Sachs
+          </Description>
+          <br />
+        </Col>
       </Row>
       <Call color="#333" className="center" size="48px">
         FAQ
@@ -491,7 +515,7 @@ const Landing = () => (
 
             <item>
               <span className="right">9 AM</span> <b>Workshop</b>: Creative
-              Coding with Upperline Code (Beginner){" "}
+              Coding w/ Upperline Code (Beginner){" "}
             </item>
 
             <item>
@@ -504,8 +528,8 @@ const Landing = () => (
             </item>
 
             <item>
-              <span className="right">11 AM</span> <b>Workshop</b>: Intro to
-              Machine Learning with Upperline Code (Intermediate){" "}
+              <span className="right">11 AM</span> <b>Workshop</b>: Machine
+              Learning w/ Upperline Code (Intermediate){" "}
             </item>
 
             <item>
