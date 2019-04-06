@@ -78,6 +78,12 @@ const Live = () => (
 
         <Col className="center" sm={4}>
           <h2>
+            <a className="blue" href="">
+              <u> Pitch your Project Workshop @ 4 PM</u>
+            </a>
+          </h2>
+
+          <h2>
             <a className="blue" href="https://enlight.nyc">
               <u> Enlight Projects</u>
             </a>
@@ -163,8 +169,8 @@ const Live = () => (
             </item>
 
             <item>
-              <span className="right">3 PM</span> <b>Workshop</b>: Pitching Your
-              Project{" "}
+              <span className="right">4:00 PM</span> <b>Workshop</b>: Pitching
+              Your Project{" "}
             </item>
 
             <item>
