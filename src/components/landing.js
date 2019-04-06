@@ -123,7 +123,8 @@ const Landing = () => (
             <Call size="24px" color="#333;">
               {" "}
               <img height="30px" src="/learn.png" />
-              <br />Beginner oriented.{" "}
+              <br />
+              Beginner oriented.{" "}
             </Call>
             <Description color="#333" size="18px">
               {" "}
@@ -148,7 +149,8 @@ const Landing = () => (
             <Call color="#333" size="24px">
               {" "}
               <img height="30px" src="/build.png" />
-              <br />Build something amazing.{" "}
+              <br />
+              Build something amazing.{" "}
             </Call>
             <Description color="#333" size="18px">
               {" "}
@@ -165,7 +167,8 @@ const Landing = () => (
             <Call size="24px" color="#333;">
               {" "}
               <img height="30px" src="/share.png" />
-              <br />Share and win prizes.{" "}
+              <br />
+              Share and win prizes.{" "}
             </Call>
             <Description color="#333" size="18px">
               You'll have the opportunity to win prizes worth thousands of
@@ -189,7 +192,8 @@ const Landing = () => (
             <Call color="#333" size="24px">
               {" "}
               <img height="30px" src="/fun.png" />
-              <br />Fun, food, and swag.{" "}
+              <br />
+              Fun, food, and swag.{" "}
             </Call>
             <Description color="#333" size="18px">
               {" "}
@@ -211,8 +215,9 @@ const Landing = () => (
         <br />
         <b>8AM - 8PM</b>
         <br />
-        Saint Peter's Preparatory High School <br />144 Grand St, Jersey City,
-        NJ 07302<br /> <br />
+        Saint Peter's Preparatory High School <br />
+        144 Grand St, Jersey City, NJ 07302
+        <br /> <br />
         <Iframe
           url="https://www.google.com/maps/embed/v1/place?key=AIzaSyCa49laFsNCNi0KJWPHSTtkkAl-WHuh2LE
       &q=Saint+Peter's+Prep"
@@ -295,7 +300,8 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            CEO, <br />Adjacent Platform
+            CEO, <br />
+            Adjacent Platform
           </Description>
 
           <br />
@@ -308,7 +314,8 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Investment Banking Associate, <br />Goldman Sachs (SPP '11)
+            Investment Banking Associate, <br />
+            Goldman Sachs (SPP '11)
           </Description>
 
           <br />
@@ -321,7 +328,8 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Founder, <br />YoungLeaders
+            Founder, <br />
+            YoungLeaders
           </Description>
 
           <br />
@@ -335,7 +343,8 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Venture Partner, <br />Romulus Capital. Columbia Engineering
+            Venture Partner, <br />
+            Romulus Capital. Columbia Engineering
           </Description>
 
           <br />
@@ -348,7 +357,8 @@ const Landing = () => (
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
-            Student, <br />Rutgers Business School
+            Student, <br />
+            Rutgers Business School
           </Description>
 
           <br />
@@ -407,6 +417,18 @@ const Landing = () => (
           <Description className="center" color="#333" size="18px">
             {" "}
             <b> Thenmozhi Muthusamy</b>
+          </Description>
+          <Description className="center" color="#333" size="16px">
+            {" "}
+            Associate, Goldman Sachs
+          </Description>
+          <br />
+        </Col>
+        <Col sm={3}>
+          <Profile src="/Swetha.jpg" />
+          <Description className="center" color="#333" size="18px">
+            {" "}
+            <b>Swetha Yalamanchili</b>
           </Description>
           <Description className="center" color="#333" size="16px">
             {" "}
