@@ -153,17 +153,18 @@ const Live = () => (
             </item>
 
             <item>
-              <span className="right">1 PM</span> <b>Entrepreneurship Panel</b>{" "}
+              <span className="right">1:30 PM</span>{" "}
+              <b>Entrepreneurship Panel</b>{" "}
             </item>
 
             <item>
               {" "}
-              <span className="right">2 PM</span> <b>Engineering Activity</b>
+              <span className="right">2:30 PM</span> <b>Engineering Activity</b>
             </item>
 
             <item>
-              <span className="right">2:30 PM</span> <b>Workshop</b>: Pitching
-              Your Project{" "}
+              <span className="right">3 PM</span> <b>Workshop</b>: Pitching Your
+              Project{" "}
             </item>
 
             <item>
