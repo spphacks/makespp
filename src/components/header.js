@@ -147,8 +147,8 @@ const Header = ({ siteTitle }) => (
     </SubTagline>
 
     <Date className="font">April 6th, 2019 </Date>
-    <Link to="/register">
-      <Register> Apply Now! </Register>
+    <Link to="/live">
+      <Register> MakeSPP Live </Register>
     </Link>
     <Particles
       height="100vh"
